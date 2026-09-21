@@ -41,5 +41,5 @@ jobs:
             ghcr.io/frankcyh/agentrl-image:latest
             ghcr.io/frankcyh/agentrl-image:${{ github.sha }}
           build-args: |
-            NUM_THREADS=16
-            MAX_LINK_JOBS=8
+            NUM_THREADS=20
+            MAX_LINK_JOBS=12
